@@ -3,8 +3,10 @@
 using namespace std;
 
 int main() {
-    string str = "Hello world!";
-    reverse(str.begin(), str.end());
-    cout << str;
+    string n;
+    cout<<"Enter String:"<<endl;
+    cin>>n;
+    reverse(n.begin(), n.end());
+    cout << n;
     return 0;
 }
